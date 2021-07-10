@@ -1,0 +1,14 @@
+@for $i from 1 through 10 {
+    .fs-#{$i} {
+        font-size: #{$i}rem!important;
+    }
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+

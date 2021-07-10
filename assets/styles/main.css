@@ -1,0 +1,116 @@
+* {
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  padding: 2rem;
+}
+
+.fs-1 {
+  font-size: 1rem !important;
+}
+
+.fs-2 {
+  font-size: 2rem !important;
+}
+
+.fs-3 {
+  font-size: 3rem !important;
+}
+
+.fs-4 {
+  font-size: 4rem !important;
+}
+
+.fs-5 {
+  font-size: 5rem !important;
+}
+
+.fs-6 {
+  font-size: 6rem !important;
+}
+
+.fs-7 {
+  font-size: 7rem !important;
+}
+
+.fs-8 {
+  font-size: 8rem !important;
+}
+
+.fs-9 {
+  font-size: 9rem !important;
+}
+
+.fs-10 {
+  font-size: 10rem !important;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+span.blink {
+  margin-left: 0.5rem;
+  border-right: 0.3rem solid #b1b1b1;
+  -webkit-animation: caret 1s steps(1) infinite;
+          animation: caret 1s steps(1) infinite;
+}
+
+@-webkit-keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+html, body {
+  position: relative;
+  max-width: 100vw;
+  max-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background-color: #4b4b4b;
+}
+
+header, footer {
+  height: 3rem;
+  padding: 0.5rem;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 8rem);
+}
+
+main .intro {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .intro .text {
+  color: #b1b1b1;
+  font-size: 3rem;
+  width: 82vw;
+}
+/*# sourceMappingURL=main.css.map */

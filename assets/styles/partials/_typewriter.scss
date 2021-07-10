@@ -1,0 +1,11 @@
+span.blink {
+    margin-left: 0.5rem;
+    border-right: 0.3rem solid rgb(177, 177, 177);
+    animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
